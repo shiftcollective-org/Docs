@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "nuxi dev",
     "generate": "nuxi generate",
+    "build": "nuxt build",
     "preview": "nuxi preview",
     "lint": "eslint ."
   },
