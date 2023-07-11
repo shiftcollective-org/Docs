@@ -77,13 +77,13 @@ jobs:
         run: pnpm install
 
       - name: Create artifact
-        run: pnpm build
+        run: pnpm generate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Upload 'dist' folder
-          path: 'dist'
+          # Upload '.output/public' folder
+          path: '.output/public'
 
       - name: Deploy to GitHub Pages
         id: deployment
