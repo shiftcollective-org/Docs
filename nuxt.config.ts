@@ -20,4 +20,9 @@ export default defineNuxtConfig({
   //     },
   //   },
   // },
+  router: {
+    options: {
+      hashMode: true,
+    },
+  },
 });
